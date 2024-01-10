@@ -11,24 +11,37 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="shared.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <title>Food pagey</title>
   </head>
 
   <body>
-    <header>
-      <div id="page-logo">
-        <a href="index.html"><strong>WEBFOOD</strong></a>
-      </div>
+    <header id="main-header">
+      <a href="index.html" id="logo"><strong>WEBFOOD</strong></a>
       <nav>
         <ul>
           <li><a href="/browse-meals.html">Browse Meals</a></li>
           <li><a href="/My-orders.html">My Orders</a></li>
         </ul>
       </nav>
-      <main>
-        
-      </main>
     </header>
+
+    <main>
+      <section id="meals">
+        <h1>Browse our delicious meals</h1>
+        <ul id="food">
+          <li class="foods">
+            <img src="images/risotto.jpg" alt="risotto with prawns" />
+            <p>Risotto with Tiger Prawns</p>
+            <a href="My-orders.html">Add to Cart</a>
+          </li>
+          <li class="foods">
+            <img src="images/cheeseburgers.jpg" alt="beesechurgers" />
+            <p>Beesechurgers</p>
+            <a href="My-orders.html">Add to Cart</a>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
