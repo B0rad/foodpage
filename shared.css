@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   background-color: rgb(44, 41, 38);
+  color: rgb(44, 41, 38);
 }
 
 a {
@@ -52,14 +53,21 @@ main ul {
 
 }
 
-/* main li {
+main li {
   display: flex;
-} */
+  border-radius: 8px;
+  background-color:burlywood;
+  overflow: hidden;
+}
 
 main li img {
   width: 300px;
   height: 230px;
   object-fit: cover;
+}
+
+h1 {
+    color: rgb(238, 164, 80);
 }
 
 #meals {
@@ -82,8 +90,18 @@ main li img {
   margin: 0 20px;
   display: flex;
   flex-direction: column;
+  color: rgb(44, 41, 38);
 }
 
 .foods p {
   text-align: center;
+}
+
+.foods a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 24px;
+    color: white ;
+    border-radius: 5px;
+    background-color: rgb(238, 164, 80);
 }
